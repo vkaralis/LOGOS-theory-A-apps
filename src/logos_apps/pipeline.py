@@ -41,7 +41,7 @@ def main():
               ('models', ['--output', str(out)]), ('extensions', []),
               ('finite_family', []), ('training', []), ('diagnostics', []),
               ('verify', [])]
-    log = dict(version='0.5.0', python=platform.python_version(),
+    log = dict(version='0.5.1', python=platform.python_version(),
                platform=platform.platform(), synthetic=True, inputs=manifest,
                dependencies={k: importlib.metadata.version(k)
                              for k in ['numpy', 'pandas', 'scipy', 'matplotlib']},

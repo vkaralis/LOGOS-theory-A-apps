@@ -23,7 +23,7 @@ jobs:
         run: |
           logos-reproduce --generate-only --data generated-data
           logos-reproduce --data generated-data --output results-repeat
-          python scripts/compare_runs.py results results-repeat
+          python scripts/compare_runs.py results results-repeat --first-data data --second-data generated-data
       - uses: actions/upload-artifact@v4
         if: always()
         with:

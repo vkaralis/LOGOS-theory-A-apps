@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "logos-theory-a-apps"
-version = "0.5.0"
+version = "0.5.1"
 description = "LOGOS (Longitudinal Optimization of Global Outcomes and Strategies) — Bridging mathematical treatment theory and clinical evidence through PK/PD modeling and patient-level prediction."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"

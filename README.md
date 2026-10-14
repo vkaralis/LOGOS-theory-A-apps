@@ -30,7 +30,7 @@ The results provide internally validated predictive evidence for a measured hema
 
 For this public release, numerical verification and internal predictive checks concern synthetic examples and specified models. Canonical parameters are normalized model scenarios; palbociclib parameters describe a typical-parameter simulation.
 
-Version **0.5.0** supports **Python 3.12 only** (`>=3.12,<3.13`). Code, documentation and the included synthetic datasets are covered by [MIT](LICENSE). Dependency licenses remain their own.
+Version **0.5.1** supports **Python 3.12 only** (`>=3.12,<3.13`). Code, documentation and the included synthetic datasets are covered by [MIT](LICENSE). Dependency licenses remain their own.
 
 ## Reproduce in a clean environment
 
@@ -53,10 +53,10 @@ The release includes generated input CSVs. Rebuild them or verify reproducibilit
 ```bash
 logos-reproduce --generate-only --data generated-data
 logos-reproduce --data generated-data --output results-repeat
-python scripts/compare_runs.py results results-repeat
+python scripts/compare_runs.py results results-repeat --first-data data --second-data generated-data
 ```
 
-The generator defaults to seed `20261012`; bootstrap stages retain their separately declared seeds. The input manifest verifies the CSV bytes before analysis. The comparison script checks every numeric CSV/JSON result, excluding execution timings and rendering caches. Rendering bytes are not portable numeric evidence.
+The generator defaults to seed `20261012`; bootstrap stages retain their separately declared seeds. The input manifest verifies the CSV bytes before analysis. Regenerated floating-point CSV text can differ slightly between operating systems; the comparison verifies each input manifest, checks every input value numerically and validates result provenance against its own inputs. The comparison script checks every numeric CSV/JSON result, excluding execution timings and rendering caches. Rendering bytes are not portable numeric evidence.
 
 ## Included analyses
 
@@ -72,4 +72,4 @@ Generated outputs include tables, trajectories, prediction rows, bootstrap draws
 
 Clinical example endpoints are measured minima at simulated visits, never reconstructed continuous nadirs. Predictive improvement is not a causal restart-policy benefit. Mechanistic models and empirical example endpoints remain separate; searches do not establish global optimality. The phase map is a screened family, not a continuous safety certificate.
 
-The GitHub About description is saved in [github-about.txt](github-about.txt), and topics are listed in [github-topics.txt](github-topics.txt). Set both in the repository's About settings after upload. A ZIP upload does not create a Git tag; use the release instructions to publish `v0.5.0`.
+The GitHub About description is saved in [github-about.txt](github-about.txt), and topics are listed in [github-topics.txt](github-topics.txt). Set both in the repository's About settings after upload. A ZIP upload does not create a Git tag; use the release instructions to publish `v0.5.1`.

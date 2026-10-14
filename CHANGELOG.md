@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1] — 2026-10-14
+
+- Verify each synthetic input manifest and compare input values numerically when checking regeneration across operating systems.
+- Check recorded result hashes against their own inputs; retain strict comparison of every numeric result.
+- Add regression checks for rounding differences, changed input values, corrupted manifests and incorrect result provenance.
+- Preserve the v0.5.0 release; publish the portability correction as v0.5.1.
+
 ## [0.5.0] — 2026-10-12
 
 - Package LOGOS A model and event-analysis workflows as an installable Python project.
