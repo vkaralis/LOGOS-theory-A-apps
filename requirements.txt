@@ -1,0 +1,5 @@
+# Runtime pins; Python 3.12 only. See requirements-lock.txt for transitive pins.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.1
+matplotlib==3.10.9

@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "seed": 20261012,
+  "method": "Independent fictional event histories; no clinical input files used",
+  "files": {
+    "synthetic_all.csv": "7ff4113717255064e02726f89aee5a33b7233a686d58a5e776bff1fe20d3acad",
+    "synthetic_psa.csv": "922cd89cd721e2c5b682ede427286ea2186ec9c8081ee53a19d201fecfaf91b4"
+  }
+}

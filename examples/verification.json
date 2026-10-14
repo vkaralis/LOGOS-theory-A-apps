@@ -1,0 +1,1896 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "periodic alternative solver objective",
+      "error": 7.058104101176355e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "periodic alternative solver injury",
+      "error": 6.050715484207103e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "periodic closure",
+      "error": 4.932720898409571e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "periodic objective numerical anchor",
+      "error": 1.0352829704629585e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "constant objective numerical anchor",
+      "error": 2.547299177146911e-11,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "finite alternative solver objective",
+      "error": 4.5560499817298705e-12,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "finite exposure mass balance",
+      "error": 3.552713678800501e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "oral PK mass balance",
+      "error": 4.18367562816e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "palbociclib alternative solver nadir",
+      "error": 1.000000082740371e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "equal administered palbociclib amounts",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "delayed follow-up preserves nadirs",
+      "error": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "visit count 1.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 1.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 1.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 10.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 10.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 10.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 10.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 11.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 11.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 11.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 11.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 12.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 12.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 12.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 13.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 13.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 13.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 13.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 14.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 14.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 14.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 14.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 15.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 15.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 15.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 16.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 16.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 16.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 17.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 17.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 18.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 18.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 18.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 18.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 19.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 19.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 19.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 19.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 2.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 2.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 2.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 2.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 20.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 20.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 20.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 21.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 21.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 21.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 21.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 22.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 22.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 22.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 22.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 23.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 23.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 24.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 24.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 24.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 24.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 25.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 25.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 25.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 25.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 26.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 26.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 26.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 26.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 27.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 27.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 27.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 27.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 28.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 28.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 28.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 28.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 29.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 29.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 29.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 29.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 3.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 3.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 3.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 3.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 30.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 30.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 30.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 30.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 31.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 31.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 31.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 31.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 32.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 32.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 32.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 32.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 33.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 33.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 33.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 33.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 34.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 34.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 34.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 34.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 35.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 35.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 35.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 35.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 36.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 36.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 36.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 36.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 37.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 37.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 37.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 37.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 38.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 38.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 38.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 38.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 39.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 39.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 39.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 39.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 4.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 4.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 4.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 4.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 40.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 40.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 40.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 40.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 41.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 41.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 41.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 41.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 42.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 42.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 42.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 42.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 43.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 43.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 43.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 43.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 44.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 44.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 44.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 45.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 45.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 45.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 45.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 46.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 46.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 46.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 46.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 47.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 47.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 47.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 47.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 48.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 48.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 48.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 48.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 49.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 49.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 49.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 5.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 5.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 5.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 5.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 50.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 50.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 50.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 50.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 51.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 51.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 51.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 51.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 52.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 52.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 52.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 52.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 53.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 53.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 53.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 54.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 54.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 54.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 54.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 55.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 55.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 55.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 56.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 56.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 56.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 57.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 57.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 57.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 57.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 58.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 58.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 58.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 59.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 59.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 59.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 59.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 6.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 6.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 6.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 6.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 60.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 60.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 60.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 60.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 7.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 7.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 7.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 7.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 8.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 8.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 8.0:140.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 8.0:195.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 9.0:30.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "visit count 9.0:85.0",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "observed minimum reconstructed from raw events",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "all held-out predictions all",
+      "error": 9.103828801926284e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "all held-out predictions two_or_more_visits",
+      "error": 7.327471962526033e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "strict PSA selection keys",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: constant local maximum below global derivative-grid upper bound",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: cycle positive strict margin against full constant family",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: cycle satisfies injury cap",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: cycle periodic closure",
+      "error": 4.914957330015568e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 0",
+      "error": 1.7203882249350322e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 1",
+      "error": 1.656560040530497e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 1",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 2",
+      "error": 2.7376264033485143e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 2",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 3",
+      "error": 2.7115678383204944e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 3",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 4",
+      "error": 1.7245014680145054e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 4",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 5",
+      "error": 2.124980946760502e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 5",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 6",
+      "error": 4.442864143250347e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 6",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 7",
+      "error": 3.307424700782491e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 7",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 8",
+      "error": 5.198594660305034e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 8",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 9",
+      "error": 4.4826751761928296e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 9",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 10",
+      "error": 2.1678088046872546e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 10",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 11",
+      "error": 5.5034473561699215e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 11",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 12",
+      "error": 3.113017982281363e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 12",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 13",
+      "error": 2.1663660795812056e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 13",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 15",
+      "error": 2.5194825226115825e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 15",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 16",
+      "error": 3.329430196125083e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 16",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 17",
+      "error": 1.4311618751206012e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 17",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 19",
+      "error": 2.357099217892289e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 19",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 20",
+      "error": 2.3604863827464406e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 20",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 21",
+      "error": 1.6568944133377173e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 21",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 22",
+      "error": 2.2059539389607252e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 22",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 23",
+      "error": 3.324752785582863e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 23",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 25",
+      "error": 2.9385332854514612e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 25",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 26",
+      "error": 1.9947165634526254e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 26",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 27",
+      "error": 4.0647218910172533e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 27",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 28",
+      "error": 4.5211922400367754e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 28",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 29",
+      "error": 1.6308590797264877e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 29",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 30",
+      "error": 2.6872998201699083e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 30",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: screen vs independent selected ODE case 31",
+      "error": 2.3649511723955463e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: selected full-path injury case 31",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: information quadrature convergence SD 0",
+      "error": 0.0,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: information quadrature convergence SD 0.25",
+      "error": 3.7000996711000766e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: information quadrature convergence SD 0.5",
+      "error": 9.321077243384934e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: information quadrature convergence SD 1.0",
+      "error": 1.855043341159046e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: information quadrature convergence SD 2.0",
+      "error": 2.031078638609074e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: independent LOPO prediction all",
+      "error": 5.551115123125783e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "A_extension_verification: independent LOPO prediction two_or_more_visits",
+      "error": 9.992007221626409e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: constant independent Radau objective",
+      "error": 5.898059818321144e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: cycle independent Radau objective",
+      "error": 1.5835249778106686e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: cycle full-path injury",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: constant below conservative upper bound",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: strict lower margin positive",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "A_finite_constant_family: declining complete injury tails",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "all full-training SVD bootstrap losses all",
+      "error": 1.1934897514720433e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "all full-training SVD bootstrap losses two_or_more_visits",
+      "error": 9.992007221626409e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "scope": "Computational consistency of synthetic analyses and specified models"
+}
